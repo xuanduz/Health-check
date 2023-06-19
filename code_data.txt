@@ -1,0 +1,107 @@
+
+INSERT INTO health_check.Admin (email, password, fullName, address, gender, phoneNumber, accessToken, refreshToken, role, createdAt, updatedAt)
+VALUES ( 'sp@gmail.com','$2a$10$xtWR2pUUs.uIi9quTVIBueqQItlAflyT6hSdvA5YQ.btsyWwSaZvq','xuan duc','PRO01', true, '0398842681', '','','SUPER_ADMIN', NOW(), NOW());
+-- password: 123
+
+
+
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) 
+values ('B1','BOOKING','Khám tại phòng khám', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) 
+values ('B2','BOOKING','Khám tại nhà', NOW(), NOW());
+
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) values ('T1','TIME','7:30 - 8:00', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) values ('T2','TIME','8:00 - 8:30', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) values ('T3','TIME','8:30 - 9:00', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) values ('T4','TIME','9:00 - 9:30', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T5', 'TIME', '9:30 - 10:00', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T6', 'TIME', '10:00 - 10:30', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T7', 'TIME', '10:30 - 11:00', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T8', 'TIME', '11:00 - 11:30', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T9', 'TIME', '11:30 - 12:00', NOW(), NOW());
+
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T10', 'TIME', '13:30 - 14:00', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T11', 'TIME', '14:00 - 14:30', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T12', 'TIME', '14:30 - 15:00', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T13', 'TIME', '15:00 - 15:30', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T14', 'TIME', '15:30 - 16:00', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T15', 'TIME', '16:00 - 16:30', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T16', 'TIME', '16:30 - 17:00', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T17', 'TIME', '17:00 - 17:30', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('T18', 'TIME', '17:30 - 18:00', NOW(), NOW());
+
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('P1', 'POSITION', 'Bác sĩ', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('P2', 'POSITION', 'Thạc sĩ', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('P3', 'POSITION', 'Tiến sĩ', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('P4', 'POSITION', 'Phó giáo sư', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('P5', 'POSITION', 'Giáo sư', NOW(), NOW());
+
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('S1', 'STATUS', 'Lịch hẹn mới', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('S2', 'STATUS', 'Đã xác nhận', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('S3', 'STATUS', 'Đã khám xong', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('S4', 'STATUS', 'Đã huỷ', NOW(), NOW());
+
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO01', 'PROVINCE', 'Hà Nội', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO02', 'PROVINCE', 'Hà Giang', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO04', 'PROVINCE', 'Cao Bằng', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO06', 'PROVINCE', 'Bắc Kạn', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO08', 'PROVINCE', 'Tuyên Quang', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO10', 'PROVINCE', 'Lào Cai', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO11', 'PROVINCE', 'Điện Biên', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO12', 'PROVINCE', 'Lai Châu', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO14', 'PROVINCE', 'Sơn La', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO15', 'PROVINCE', 'Yên Bái', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO17', 'PROVINCE', 'Hoà Bình', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO19', 'PROVINCE', 'Thái Nguyên', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO20', 'PROVINCE', 'Lạng Sơn', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO22', 'PROVINCE', 'Quảng Ninh', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO24', 'PROVINCE', 'Bắc Giang', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO25', 'PROVINCE', 'Phú Thọ', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO26', 'PROVINCE', 'Vĩnh Phúc', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO27', 'PROVINCE', 'Bắc Ninh', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO30', 'PROVINCE', 'Hải Dương', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO31', 'PROVINCE', 'Hải Phòng', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO33', 'PROVINCE', 'Hưng Yên', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO34', 'PROVINCE', 'Thái Bình', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO35', 'PROVINCE', 'Hà Nam', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO36', 'PROVINCE', 'Nam Định', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO37', 'PROVINCE', 'Ninh Bình', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO38', 'PROVINCE', 'Thanh Hóa', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO40', 'PROVINCE', 'Nghệ An', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO42', 'PROVINCE', 'Hà Tĩnh', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO44', 'PROVINCE', 'Quảng Bình', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO45', 'PROVINCE', 'Quảng Trị', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO46', 'PROVINCE', 'Thừa Thiên Huế', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO48', 'PROVINCE', 'Đà Nẵng', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO49', 'PROVINCE', 'Quảng Nam', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO51', 'PROVINCE', 'Quảng Ngãi', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO52', 'PROVINCE', 'Bình Định', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO54', 'PROVINCE', 'Phú Yên', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO56', 'PROVINCE', 'Khánh Hòa', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO58', 'PROVINCE', 'Ninh Thuận', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO60', 'PROVINCE', 'Bình Thuận', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO62', 'PROVINCE', 'Kon Tum', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO64', 'PROVINCE', 'Gia Lai', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO66', 'PROVINCE', 'Đắk Lắk', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO67', 'PROVINCE', 'Đắk Nông', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO68', 'PROVINCE', 'Lâm Đồng', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO70', 'PROVINCE', 'Bình Phước', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO72', 'PROVINCE', 'Tây Ninh', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO74', 'PROVINCE', 'Bình Dương', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO75', 'PROVINCE', 'Đồng Nai', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO77', 'PROVINCE', 'Bà Rịa - Vũng Tàu', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO79', 'PROVINCE', 'Hồ Chí Minh', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO80', 'PROVINCE', 'Long An', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO82', 'PROVINCE', 'Tiền Giang', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO83', 'PROVINCE', 'Bến Tre', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO84', 'PROVINCE', 'Trà Vinh', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO86', 'PROVINCE', 'Vĩnh Long', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO87', 'PROVINCE', 'Đồng Tháp', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO89', 'PROVINCE', 'An Giang', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO91', 'PROVINCE', 'Kiên Giang', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO92', 'PROVINCE', 'Cần Thơ', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO93', 'PROVINCE', 'Hậu Giang', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO94', 'PROVINCE', 'Sóc Trăng', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO95', 'PROVINCE', 'Bạc Liêu', NOW(), NOW());
+INSERT INTO health_check.Code (`key`, `type` ,`value`, createdAt, updatedAt) VALUES ('PRO96', 'PROVINCE', 'Cà Mau', NOW(), NOW());
+
